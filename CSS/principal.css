@@ -1,0 +1,48 @@
+main{
+    padding: 30px 0;
+    background: linear-gradient(#E9ECEF,#0077B6);
+    width: 100%;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 150px;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.ContenedorEstudios{
+    margin: 10px;
+}
+.ImagenEscuelas{
+    height: 20rem;
+    border-radius: 300px ;
+}
+.ilustracion{
+    display: flex;
+    flex-direction: column;
+}
+
+.ilustracion p{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media (max-width:820px) {
+    nav{
+        display: none;
+    }
+    .ContenedorEstudios{
+       display:flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+    }
+    .skills{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap ;
+    }
+    
+}
